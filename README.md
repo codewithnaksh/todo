@@ -1,22 +1,8 @@
 # Todo app 
 
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
-## Overview
 
 ### The challenge
 
@@ -27,10 +13,10 @@ Users should be able to:
 - Add new todos to the list
 - Mark todos as complete
 - Delete todos from the list
-- Filter by all/active/complete todos
+- Filter by all/active/complete todos (not completed)
 - Clear all completed todos
 - Toggle light and dark mode
-- **Bonus**: Drag and drop to reorder items on the list
+- **Bonus**: Drag and drop to reorder items on the list (not completed)
 
 ### Screenshot
 
@@ -72,9 +58,7 @@ const proudOfThisFunc = () => {
 ```
 
 
-### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 
 ### Useful resources
