@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <title>Todo app</title>
+    <style>
+      /* .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      } */
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hero-background"></div>
+    <div id="container">
+      <header>
+        <h1>Todo</h1>
+        <button class="toggle-theme-btn">
+          <img src="./images/icon-sun.svg" />
+        </button>
+      </header>
+      <main>
+        <form class="add-todo">
+          <input
+            type="text"
+            spellcheck="false"
+            placeholder="create a new todo..." />
+          <button type="submit">👉</button>
+        </form>
+        <div class="todo-list-container">
+          <div class="todo-list">
+            
+          </div>
+        </div>
+      </main>
+      <footer>
+        <!-- <button class="filter" data-view="all">All</button>
+        <button class="filter" data-view="active">Active</button>
+        <button class="filter" data-view="completed">Completed</button> -->
+        <p>0 items left</p>
+        <button>Clear Completed</button>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
